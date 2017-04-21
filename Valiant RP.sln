@@ -3,7 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Data", "Data\Data.shproj", "{5EDF50B9-CF64-42D1-9C9F-AEC845665D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{62F2398D-DE58-4CFA-925F-52BBC7C0F228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{0B2D5921-5595-48B2-9E10-2E91F04DF988}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Data\Data.projitems*{5edf50b9-cf64-42d1-9c9f-aec845665d07}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F2398D-DE58-4CFA-925F-52BBC7C0F228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F2398D-DE58-4CFA-925F-52BBC7C0F228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F2398D-DE58-4CFA-925F-52BBC7C0F228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F2398D-DE58-4CFA-925F-52BBC7C0F228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2D5921-5595-48B2-9E10-2E91F04DF988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2D5921-5595-48B2-9E10-2E91F04DF988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2D5921-5595-48B2-9E10-2E91F04DF988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2D5921-5595-48B2-9E10-2E91F04DF988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
